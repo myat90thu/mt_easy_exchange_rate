@@ -4,12 +4,13 @@
 
     'summary': "Easy to put exchange rate for currency",
     'description': """
-        - Based currency unit is lower than other currencies, can able to put current exchange rate.
+        - Base currency rate auto convert by putting excel "=" formula.
         - It will convert automatically to actual rate.
-        - No need to calculate again and fill again for actual rate.
+        - No need to calculate at outside and copy and paste into rate.
+        - It will auto calculate if you put formula.
     """,
     'author': "MYAT THU",
-    'version': '0.1',
+    'version': '12.0.0.1.0',
     'depends': ['base',],
     'data': [
         "views/views.xml",
